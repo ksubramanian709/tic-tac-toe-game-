@@ -110,15 +110,15 @@ def play_game():
         if winner:
             display_board()
             if winner == "X":
-                print(f"You win! 🎉")
+                print(f"You win!")
             else:
-                print(f"Computer wins! 🤖")
+                print(f"Computer wins!")
             break
         
         # Check for tie
         if check_tie():
             display_board()
-            print("It's a tie! 🤝")
+            print("It's a tie!")
             break
         
         # Switch player
